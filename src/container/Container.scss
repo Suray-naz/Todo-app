@@ -2,6 +2,7 @@
 
 .container{
     text-align: center;
+    max-width: 50vw;
   }
 
   h1{
@@ -20,16 +21,17 @@
   
   li{
     padding: 5px 20px;
-    width: 50vw;
+    width: 30vw;
     background-color:rgb(226, 169, 204);
     border-radius: 15px 0;
     list-style-type: none;
-    text-align: start;
     margin-top: 10px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     letter-spacing: .7px;
+    
+    
   }
   
   button{
@@ -46,3 +48,6 @@
   button:hover{
     background-color: #f72e2e;
   }
+
+
+  
