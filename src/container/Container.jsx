@@ -41,7 +41,7 @@ const Container = () => {
 
         <form className="mb-3 w-50 d-flex mx-auto input-group" onSubmit={(e)=> {
         e.preventDefault();
-        addItem();
+        
       }}>
           <input
             placeholder="Enter new todo..."
